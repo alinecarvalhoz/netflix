@@ -6,13 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vub4qtr.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl p/ o carrossel-->
+    <link rel="stylesheet" href="style/carrossel/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/carrossel/owl.theme.default.min.css">
+    <!--Fim do owl p/o carrossel-->
+
     <title>NetFlix Brasil - assistir a séries online</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2>NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
 
             <!--Início da barra de navegação-->
             <nav>
@@ -25,6 +33,79 @@
 
         </div>
     </header>
+
+    <main>
+        <!--Inicio do container filme principal, que fica em destaque-->
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE of CARDS</h3>
+                <p class="descricao">Num drama sobre as consequências do poder e da corrupção, Francis Underwood (Kevin
+                    Spacey) está sedento por sucesso e nada o detém.</p>
+            </div>
+            <div class="botoes">
+                <button role="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+        </div>
+        <!--Fim do container filme principal, que fica em destaque-->
+
+        <!--Incio do carrossel de filmes-->
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img clas="box-filme" src="img/mini1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img clas="box-filme" src="img/mini10.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+        <!--Fim do carrossel de filmes-->
+
+        <footer>
+            <h2 class="logo">NETFLIX</h2>
+        </footer>
+
+    </main>
+
+    <!--script dos icons-->
+    <script src="https://kit.fontawesome.com/abd4767deb.js" crossorigin="anonymous"></script>
+    <!--Fim do scrip dos icons-->
+
+    <!--script do carrossel-->
+    <script src="js/carrossel/jquery.min.js"></script>
+    <script src="js/carrossel/owl.carousel.min.js"></script>
+    <script src="js/carrossel/setup.js"></script>
+    <!--Fim do script do carrosel-->
 </body>
 
-</html>gi
+</html>
